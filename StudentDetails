@@ -20,10 +20,10 @@ public class StudentDetails {
     int grade = sc.nextInt();
 
     System.out.println("First name(s): " + name + 
-                "/nSurname: " + sname +
-                "/nDate of birth: " + dob +
-                "/nGender: " + gender +
-                "/nGrade: " + grade);
+                "\nSurname: " + sname +
+                "\nDate of birth: " + dob +
+                "\nGender: " + gender +
+                "\nGrade: " + grade);
   }
 
 }
