@@ -14,14 +14,14 @@ public class StudentDetails {
     String dob = sc.nextLine();
 
     System.out.println("What gender are you (M/F)?");
-    char gender = sc.next();
+    String gender = sc.nextLine();
 
     System.out.println("What grade are you in?");
     int grade = sc.nextInt();
 
     System.out.println("First name(s): " + name + 
                 "/nSurname: " + sname +
-                "/nDate of birth: " + dob
+                "/nDate of birth: " + dob +
                 "/nGender: " + gender +
                 "/nGrade: " + grade);
   }
