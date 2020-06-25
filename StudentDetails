@@ -1,6 +1,29 @@
+import java.util.Scanner;
+
 public class StudentDetails {
   public static void main(String[] args){
-  
+    Scanner sc = new Scanner(System.in);
+
+    System.out.println("What is your first name(s)?");
+    String name = sc.nextLine();
+
+    System.out.println("What is your surname?");
+    String sname = sc.nextLine();
+
+    System.out.println("What is your date of birth (YYYY/MM/DD)?");
+    String dob = sc.nextLine();
+
+    System.out.println("What gender are you (M/F)?");
+    char gender = sc.next();
+
+    System.out.println("What grade are you in?");
+    int grade = sc.nextInt();
+
+    System.out.println("First name(s): " + name + 
+                "/nSurname: " + sname +
+                "/nDate of birth: " + dob
+                "/nGender: " + gender +
+                "/nGrade: " + grade);
   }
 
 }
